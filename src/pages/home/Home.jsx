@@ -1,6 +1,6 @@
 import './Home.css';
-import BG from "../assets/LandingBG.jpg";
-import HomeBtns from "../components/HomeBtns";
+import BG from "../../assets/LandingBG.jpg";
+import HomeBtns from "../../components/HomeBtns";
 
 const Home = () => {
   return (

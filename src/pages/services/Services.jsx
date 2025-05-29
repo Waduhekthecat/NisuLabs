@@ -1,5 +1,5 @@
 import './Services.css';
-import services from "../assets/Services.png";
+import services from "../../assets/Services.png";
 import { Link } from "react-router-dom";
 
 const Services = () => {

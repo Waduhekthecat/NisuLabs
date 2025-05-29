@@ -2,10 +2,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from './javascript/ScrollToTop';
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import DLC from "./pages/DLC";
-import Home from "./pages/Home";
-import Technologies from "./pages/Technologies";
-import Services from "./pages/Services";
+import DLC from "./pages/dlc/DLC";
+import Home from "./pages/home/Home";
+import Technologies from "./pages/technologies/Technologies";
+import Services from "./pages/services/Services";
 import Contact from "./pages/Contact";
 import "./App.css";
 

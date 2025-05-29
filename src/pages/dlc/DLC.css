@@ -7,9 +7,20 @@
   position: relative;
 }
 
+.carousel-text-overlay {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1000px;
+  color: white;
+  text-align: center;
+  padding: 0 1rem;
+}
+
 .text-container {
     max-width: 1000px;
-    min-width:400px;
     margin: 40px auto;
     padding-left: 4rem;
     padding-right: 4rem;

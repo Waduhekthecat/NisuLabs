@@ -1,7 +1,7 @@
-import Carousel from "../components/Carousel";
+import Carousel from "../../components/Carousel";
 import "./DLC.css";
-import dlc1 from "../assets/dlc1.jpg";
-import DLCBtns from "../components/DLCBtns";
+import dlc1 from "../../assets/dlc1.jpg";
+import DLCBtns from "../../components/DLCBtns";
 
 const DLC = () => {
   return (
