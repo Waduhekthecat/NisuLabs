@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-links">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/nisulabsguncoatings/" target="_blank" rel="noopener noreferrer">
             <img src={insta} alt="Instagram" className="footer-icon" />
           </a>
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">

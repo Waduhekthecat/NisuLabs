@@ -17,6 +17,7 @@ const DLCBtns = () => {
         <div className="DLC-buttons">
             <Link to="/Services"
                 className={`dlc-btn ${getLeftButtonClass()} left-btn`}
+                onClick={() => window.scrollTo(0, 0)}
                 onMouseEnter={() => setHovered('left')}
                 onMouseLeave={() => setHovered(null)}
             >
@@ -24,6 +25,7 @@ const DLCBtns = () => {
             </Link>
             <Link to="/Technologies"
                 className={`dlc-btn ${getRightButtonClass()} right-btn`}
+                onClick={() => window.scrollTo(0, 0)}
                 onMouseEnter={() => setHovered('right')}
                 onMouseLeave={() => setHovered(null)}
             >
