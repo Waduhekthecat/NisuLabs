@@ -24,7 +24,7 @@ button {
 }
 
 .navbar a {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 header {
@@ -37,14 +37,13 @@ header {
 
 .navbar-logo {
     font-size: 1.5rem;
-    color: #20adf9;
+    color: #008dd9;
     font-weight: 500;
     text-decoration: none;
     letter-spacing: 4px;
     text-transform: uppercase;
-    transition: 0.3s ease-in;
+    transition: 0.2s ease-in;
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
-
 }
 
 .navbar-logo:hover {
@@ -108,7 +107,7 @@ button:active {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 40;
     display: flex;
-    height: 50px;
+    height: 40px;
     align-items: center;
     justify-content: center;
     clip-path: polygon(0 0, 100% 0, calc(100% - 15px) 100%, 0% 100%);
@@ -127,7 +126,7 @@ button:active {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 40px;
     opacity: 1;
     visibility: visible;
     clip-path: polygon(15px 0, 100% 0, calc(100% - 15px) 100%, 0 100%);
@@ -145,7 +144,7 @@ button:active {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 40;
     display: flex;
-    height: 50px;
+    height: 40px;
     align-items: center;
     justify-content: center;
     clip-path: polygon(15px 0, 100% 0, 100% 100%, 0 100%);
@@ -155,7 +154,7 @@ button:active {
 .menu-toggle {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 3px;
     background: none;
     border: none;
     cursor: default;
@@ -165,17 +164,17 @@ button:active {
 }
 
 .menu-toggle .bar {
-    width: 30px;
+    width: 20px;
     height: 3px;
     background-color: #000;
-    transition: all 0.3s;
+    transition: all 0.2s;
     border-radius: 2px;
 }
 
 .menu-toggle.active .bar:nth-child(1) {
-    transform: rotate(45deg) translate(6px,3px);
-    width: 20px;
-    height: 2px;
+    transform: rotate(45deg) translate(5px,-1px);
+    width: 22px;
+    height: 3px;
 }
 
 .menu-toggle.active .bar:nth-child(2) {
@@ -183,9 +182,9 @@ button:active {
 }
 
 .menu-toggle.active .bar:nth-child(3) {
-    transform: rotate(-45deg) translate(7px, -6px);
-    width: 20px;
-    height: 2px;
+    transform: rotate(-45deg) translate(8px, -5px);
+    width: 22px;
+    height: 3px;
 }
 
 @media (max-width: 1051px) {
