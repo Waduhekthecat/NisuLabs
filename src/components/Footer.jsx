@@ -13,8 +13,8 @@ const Footer = () => {
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
             <img src={fb} alt="Facebook" className="footer-icon" />
           </a>
-        </div>
         <p>© {new Date().getFullYear()} NISU Laboratories | All rights reserved.</p>
+        </div>
 
       </div>
     </footer>

@@ -4,13 +4,14 @@
   }
   
   .footer-container {
-    max-width: 1200px;
+    height:10vh;
+    max-width: 100vw;
     padding: 0 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
+    justify-content: space-between;
   }
   
   .footer p {
@@ -49,9 +50,6 @@
   }
 
   @media (max-width: 600px) {
-  .footer-container {
-    padding: 0.5rem 1rem;
-  }
 
   .footer p {
     font-size: 0.9rem;
@@ -61,8 +59,4 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-
-  .footer-icon {
-    margin: 6px;
   }
-}
