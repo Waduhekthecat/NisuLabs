@@ -1,0 +1,37 @@
+.DLC-buttons {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+  justify-content: center;
+  z-index:20;
+}
+
+.dlc-btn {
+  padding: 0.75rem 2rem;
+  font-size: 1.2rem;
+  border: 2px solid rgb(64, 67, 67);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.dlc-btn-solid {
+  background-color: white;
+  color: #333;
+  transform: scale(1.05);
+}
+
+.dlc-btn-outline {
+  background-color: transparent;
+  color: rgb(0, 136, 255);
+  transform: scale(1.05);
+}
+
+.dlc-btn:hover.dlc-btn-solid {
+  background-color: #ffffff;
+}
+
+.dlc-btn:hover.dlc-btn-outline {
+  background-color: rgba(255, 255, 255, 0.1);
+}

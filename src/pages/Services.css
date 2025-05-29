@@ -1,0 +1,60 @@
+.services-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+.services-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2); 
+  z-index: 1; 
+}
+
+.services-text {
+    max-width: 1000px;
+    min-width: 400px;
+    margin: 40px auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    line-height: 1.8;
+    z-index:2;
+    background-color: rgba(0, 0, 0, 0.2); 
+}
+
+.inquire-btn {
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #007bff, #00d4ff);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+  z-index:10;
+}
+
+.inquire-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 123, 255, 0.4);
+}
+
+.inquire-btn:active {
+  transform: scale(0.98);
+  box-shadow: 0 3px 8px rgba(0, 123, 255, 0.25);
+}

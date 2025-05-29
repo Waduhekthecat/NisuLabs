@@ -1,0 +1,14 @@
+html, body, p, h1, #root {
+  height: 100%;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+
